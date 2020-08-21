@@ -1,2 +1,2 @@
 # Asteroids
-My take at a simple game where the player shoots asteroids from their spaceship. This game is based off of the indie game Bytepath
+My take at a simple game where the player shoots asteroids from their spaceship. This game is based off of the indie game [Bytepath](https://store.steampowered.com/app/760330/BYTEPATH/). The main algorithm I implemented with the project was the [Separating Axis Theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem#:~:text=The%20separating%20axis%20theorem%20(SAT,convex%20solids%20intersect%20or%20not.) to handle  the narrow phase of collision detection. For the broad phase I used a simple hash function based on an Entity's coordinates to determine which other Entities it might be colliding with.
